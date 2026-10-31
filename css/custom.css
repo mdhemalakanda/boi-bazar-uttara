@@ -8660,3 +8660,16 @@ ul.view-order-product-info-list li span{
 	}
 }
 
+
+/* Very small screens: stack mega menu columns into a single column */
+@media only screen and (max-width: 420px){
+	.mega-menu-links-box{
+		gap: 20px;
+	}
+
+	.mega-menu-link,
+	.mega-menu-links-box.category-links-box .mega-menu-link,
+	.mega-menu-links-box.shop-links-box .mega-menu-link{
+		width: 100%;
+	}
+}
